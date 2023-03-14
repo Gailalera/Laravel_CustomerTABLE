@@ -1,3 +1,5 @@
+@include('partials.header')
+<x-nav/>
 <table class="table table-hover">
   <thead>
     <tr>
@@ -26,3 +28,5 @@
   </tbody>
   @endforeach
 </table>
+
+@include('partials.footer')
